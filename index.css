@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(31, 57, 57);
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.container {
+    width: 360px;
+    padding: 33px;
+    text-align: left;
+    background-color: #Fff;
+    margin-left: 13%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+input {
+    width: 270px;
+    padding: 8px;
+    border: 2px solid rgb(10, 92, 10);
+    outline: none;
+    font-size: 19px;
+}
+
+button {
+    width: 60px;
+    border: none;
+    cursor: pointer;
+    height: 41px;
+    font-size: 19px;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+
+}
+.text ul{
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    padding: 7px;
+    text-align: left;
+    /* font-weight: 100; */
+
+}
+.text ul i{
+    position: absolute;
+    /* font-weight: 100; */
+
+    right: 10px;
+    cursor: pointer;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+        max-width: none;
+        margin: 20px auto;
+        padding-right: 40px;
+        margin-top: 20px;
+        /* background-color: gold; */
+    }
+
+    input {
+        width: 100%;
+        max-width: none;
+    }
+
+    button {
+        width: 100%;
+        max-width: none;
+    }
+    body{
+        background-color: gold;
+    }
+}
